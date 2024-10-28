@@ -24,7 +24,7 @@ const buttonCode=`
 `
   return (
     <Box code={buttonCode}>
-    <div className='text-center space-x-4 space-y-2 md:space-y-0'>
+    <div className='flex justify-center flex-wrap  gap-3'>
     <button className="text-white bg-[#3b5998] hover:bg-[#3b5998]/90  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
       <FaFacebookF className='mx-1' size={14}/>
      Facebook

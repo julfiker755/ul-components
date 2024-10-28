@@ -21,7 +21,7 @@ const buttonCode=`
 `
   return (
     <Box code={buttonCode}>
-    <div className='flex flex-wrap justify-center gap-x-12 space-y-2 md:space-y-0'>
+    <div className='flex justify-center flex-wrap  gap-3'>
     <ul className='flex gap-2 items-center w-fit'>
         <li className="text-white bg-[#3b5998]  hover:bg-[#3b5998]/90 cursor-pointer w-10 h-10 rounded-md grid place-items-center"><FaFacebookF size={17}/></li>
         <li className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 cursor-pointer w-10 h-10 rounded-md grid place-items-center"><FaTwitter size={17}/></li>

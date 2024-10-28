@@ -13,7 +13,7 @@ const buttonCode=`
 `
   return (
     <Box code={buttonCode}>
-    <div className='text-center space-x-4 space-y-2 md:space-y-0'>
+    <div className='flex justify-center flex-wrap  gap-3'>
        <button className="text-white bg-indigo-200  font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5 cursor-not-allowed">Default</button>
        <button disabled className="text-white bg-green-600 disabled:bg-green-400  font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Green</button>
        <button disabled  className="text-white bg-indigo-500 disabled:bg-indigo-400 font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Indigo</button>

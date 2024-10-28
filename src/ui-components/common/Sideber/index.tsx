@@ -48,7 +48,7 @@ const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
       title:"Components",
       subItem:[
          {title:"Button", href:"/components/button"},
-         {title:"Card", href:"/card/buttton"}
+         {title:"Skeleton", href:"/components/skeleton"}
       ]
      }
    ]
