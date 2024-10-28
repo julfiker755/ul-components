@@ -1,6 +1,7 @@
 'use client';
 import {useState } from 'react';
 import Highlighter from './CodeBox';
+import { MdSmartphone } from "react-icons/md";
 
 
 

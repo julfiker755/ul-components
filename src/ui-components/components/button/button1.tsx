@@ -1,7 +1,7 @@
 import Box from '@/ui-components/shared/Box'
 
 
-export default function Button1() {
+export default function Button1(){
 const buttonCode=`
 <button className="text-white bg-sky-500/100  font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Default</button>
 <button className="text-white bg-green-600  font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Green</button>
@@ -13,7 +13,7 @@ const buttonCode=`
 `
   return (
     <Box code={buttonCode}>
-    <div className='text-center space-x-4 space-y-2 md:space-y-0'>
+    <div  className='text-center space-x-4 space-y-2 md:space-y-0'>
        <button className="text-white bg-sky-500/100  font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Default</button>
        <button className="text-white bg-green-600  font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Green</button>
        <button className="text-white bg-indigo-500 font-medium rounded-md text-sm py-2 px-4 lg:py-2.5 lg:px-5">Indigo</button>

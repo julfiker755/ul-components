@@ -11,12 +11,13 @@ interface highlighterProps {
 }
 
 const yourElementStyle = {
-    background: 'transparent',
+    background: '#18181B',
     maxHeight: '500px',
     borderRadius: '0px',
     fontSize: 16,
     border: 0,
     margin: 0,
+    color:"#498cda"
 };
 
 export default function Highlighter({ code, language = "jsx", showLineNumbers = true }: highlighterProps) {

@@ -15,7 +15,7 @@ const navItems=[
 
 const Header: React.FC<HeaderProps> = ({ sidebarOpen, setSidebarOpen }) => {
   return (
-    <div className='sticky top-0 z-[999] flex w-full border-b-2 py-2'>
+    <div className='sticky top-0 z-[999] flex w-full bg-[white] border-b-2 py-2'>
       <header className="w-full px-3">
         <div className="flex justify-between items-center">
           {/* left side*/}
