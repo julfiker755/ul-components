@@ -48,7 +48,7 @@ import { cn } from '@/lib/utils';
   return (
     <Box code={buttonCode}>
     <div  className='flex justify-center flex-wrap  gap-3'>
-        <Skeleton className='w-full h-[20px]'/>
+        <Skeleton className='w-full                      h-[20px]'/>
         <Skeleton className='w-full h-[20px]'/>
         <Skeleton className='w-full h-[20px]'/>
         <Skeleton className='w-full h-[20px]'/>
