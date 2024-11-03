@@ -18,7 +18,6 @@ const ComLayout = ({children}:{children:React.ReactNode}) => {
           <main>
             <div className="mx-auto max-w-screen-2xl lg:pb-16 p-2">
                {children}
-               
             </div>
           </main>
         </div>

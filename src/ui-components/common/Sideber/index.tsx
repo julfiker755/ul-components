@@ -11,7 +11,7 @@ interface SidebarProps {
 }
 
 
-const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
+const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }):JSX.Element => {
   const trigger = useRef<HTMLButtonElement>(null);
   const sidebar = useRef<HTMLDivElement>(null);
 
@@ -48,7 +48,8 @@ const Sidebar: React.FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
       title:"Components",
       subItem:[
          {title:"Button", href:"/components/button"},
-         {title:"Skeleton", href:"/components/skeleton"}
+         {title:"Skeleton", href:"/components/skeleton"},
+         {title:"Files",href:"/components/file"}
       ]
      }
    ]
