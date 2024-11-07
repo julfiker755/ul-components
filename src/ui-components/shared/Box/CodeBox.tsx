@@ -42,7 +42,7 @@ export default function Highlighter({ code, language = "jsx", showLineNumbers = 
                 }}
                 className="invisible absolute right-3 top-2 z-50 rounded-md border p-1 group-hover:visible"
             >
-                {isCopied ? <Check size={16} /> : <Clipboard size={16} />}
+                {isCopied ? <Check size={16} color='white' /> : <Clipboard color='white' size={16} />}
             </button>
         </div>
     );

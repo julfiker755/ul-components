@@ -16,7 +16,7 @@ const ComLayout = ({children}:{children:React.ReactNode}) => {
         <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
           <Navber  sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}></Navber>
           <main>
-            <div className="mx-auto max-w-screen-2xl lg:pb-16 p-2">
+            <div className="mx-auto w-full lg:pb-16 p-4">
                {children}
             </div>
           </main>

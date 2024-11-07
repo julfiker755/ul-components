@@ -26,10 +26,10 @@ export default function Box({ children, code }: BoxProps) {
             item: 0,
             name: 'Preview',
             component: (
-                <div className={`rounded-md border border-zinc-200 p-5  w-full`}>
-                   <div className={`${size}`}>
+                <div className='rounded-md border border-zinc-200 p-5'>
+                     <div className={`${size}`}>
                        {children}
-                    </div>
+                </div>
                 </div>
             )
         },
@@ -47,7 +47,7 @@ export default function Box({ children, code }: BoxProps) {
     
 
     return (
-        <div className="my-5 h-fit w-full min-w-80 max-w-5xl">
+        <div className="my-5">
             <div className="item-center mb-2 border-b-[1px] flex justify-between gap-2">
                 <ul className='flex gap-2'>
                     <li className={`cursor-pointer ${tabNum === 0 && 'border-b-[1px]'} border-sky-500/100`} onClick={() => handleTabChange(0)}>Preview</li>
@@ -60,7 +60,7 @@ export default function Box({ children, code }: BoxProps) {
                 </ul>
             </div>
 
-            <div className={`mb-10 rounded-sm`}>
+            <div className={`mb-10 w-full rounded-sm`}>
                {totalConfig[tabNum].component}
             </div>
         </div>
